@@ -11,6 +11,7 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 void main() { 
   runApp(
      MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         appBarTheme: const AppBarTheme().copyWith(
           backgroundColor: const Color.fromARGB(255, 13, 13, 13),
